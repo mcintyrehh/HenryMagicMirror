@@ -59,8 +59,8 @@ var config = {
 			position: "top_right",
 			config: {
 				location: "New York",
-				locationID: "",  //ID from http://bulk.openweathermap.org/sample/; unzip the gz file and find your city
-				appid: "YOUR_OPENWEATHER_API_KEY"
+				locationID: "5128638",  //ID from http://bulk.openweathermap.org/sample/; unzip the gz file and find your city
+				appid: "5e1a4ba382e1617ceaefc12ba387f476"
 			}
 		},
 		{
@@ -69,8 +69,8 @@ var config = {
 			header: "Weather Forecast",
 			config: {
 				location: "New York",
-				locationID: "5128581",  //ID from https://openweathermap.org/city
-				appid: "YOUR_OPENWEATHER_API_KEY"
+				locationID: "5128638",  //ID from https://openweathermap.org/city
+				appid: "5e1a4ba382e1617ceaefc12ba387f476"
 			}
 		},
 		{
