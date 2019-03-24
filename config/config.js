@@ -73,11 +73,11 @@ var config = {
 				appid: "5e1a4ba382e1617ceaefc12ba387f476"
 			}
 		},
-		// {
-		// 	module: "plantrr",
-		// 	position: "top_right",
-		// 	header: "Henry's Test Module!"
-		// },
+		{
+			module: "plantrr",
+			position: "top_center",
+			header: "Henry's Test Module!"
+		},
 		{
 			module: "newsfeed",
 			position: "bottom_bar",
