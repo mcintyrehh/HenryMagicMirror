@@ -50,10 +50,10 @@ var config = {
 				]
 			}
 		},
-		{
-			module: "compliments",
-			position: "lower_third"
-		},
+		// {
+		// 	module: "compliments",
+		// 	position: "lower_third"
+		// },
 		{
 			module: "currentweather",
 			position: "top_right",
@@ -74,24 +74,51 @@ var config = {
 			}
 		},
 		{
-			module: "plantrr",
-			position: "top_center",
-			header: "Henry's Test Module!"
-		},
-		{
-			module: "newsfeed",
-			position: "bottom_bar",
+			module: "MMM-Live-Stream-TV",
+			position: "bottom_center",
+			header: "MMM-Live-Stream-TV",
 			config: {
-				feeds: [
+				portname: "COM7",
+				style: "slideshow",
+				slideshowInterval: 6000, //10 seconds
+				sensors: [
 					{
-						title: "New York Times",
-						url: "http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml"
+						name: "PTNM",
+						description: "Potentiometer Value",
 					}
-				],
-				showSourceTitle: true,
-				showPublishDate: true
+				]
 			}
 		},
+		// {
+		// 	module: "MMM-ArduPort",
+		// 	position: "bottom_center",
+		// 	disabled: "true",
+		// 	header: "MMM-ArduPort",
+		// 	config: {
+		// 		portname: "/dev/ttyACM0",
+		// 		sensors: [
+		// 			{
+		// 				name: "Potentiometer",
+		// 				description: "Potentiometer Value",
+		// 			}
+		// 		]
+		// 	}
+		// },
+		// {
+		// 	module: "newsfeed",
+		// 	position: "bottom_bar",
+		// 	disabled: "true",
+		// 	config: {
+		// 		feeds: [
+		// 			{
+		// 				title: "New York Times",
+		// 				url: "http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml"
+		// 			}
+		// 		],
+		// 		showSourceTitle: true,
+		// 		showPublishDate: true
+		// 	}
+		// },
 	]
 
 };
